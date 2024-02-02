@@ -3,8 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "build": "tsc index.ts",
-    "start": "node index.js"
+    "build": "tsc index.ts --outfile index.cjs",
+    "start": "node index.cjs"
   },
   "devDependencies": {
     "@types/bun": "latest"
